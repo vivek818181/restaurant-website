@@ -1,4 +1,4 @@
-
+/* General Reset */
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +8,6 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: bisque;
 }
 
 /* Header */
@@ -44,12 +43,12 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgb(22, 22, 22);
+  color: white;
   text-align: center;
 }
 
 .hero h2 {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .btn {
@@ -68,13 +67,8 @@ nav a:hover {
 
 /* Menu Section */
 .menu {
-  padding: 10px;
+  padding: 40px;
   text-align: center;
-
-}
-.menu h2{
-     border-bottom:2px solid gray;
-  margin-bottom: 20px;
 }
 
 .menu-grid {
@@ -85,7 +79,7 @@ nav a:hover {
 }
 
 .card {
-  background: rgb(229, 219, 219);
+  background: white;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -93,7 +87,6 @@ nav a:hover {
 
 .card img {
   width: 100%;
-  height: 25vh;
   border-radius: 10px;
 }
 
